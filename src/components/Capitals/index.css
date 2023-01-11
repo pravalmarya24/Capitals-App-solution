@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bg-capital-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-capital-card-container {
+  border-width: 0px;
+  border-radius: 15px;
+  background-color: #f8fafc;
+  padding: 38px;
+  width: 506px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #323f4b;
+}
+
+.select-element {
+  height: 34px;
+  width: 155px;
+  border-color: #cbd2d9;
+  padding-left: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  outline: none;
+}
+
+.label-ele {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #323f4b;
+  padding-left: 10px;
+}
+
+.country-name-para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+}
