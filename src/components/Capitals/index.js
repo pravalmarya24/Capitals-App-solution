@@ -35,7 +35,7 @@ class Capitals extends Component {
 
   onSelectCapital = event => {
     countryAndCapitalsList.map(eachCounty => {
-      if (eachCounty.capitalDisplayText === event.target.value) {
+      if (eachCounty.id === event.target.value) {
         return this.setState({country: eachCounty.country})
       }
       return eachCounty
@@ -55,7 +55,7 @@ class Capitals extends Component {
               onChange={this.onSelectCapital}
             >
               {countryAndCapitalsList.map(each => (
-                <option value={each.capitalDisplayText} key={each.id}>
+                <option value={each.id} key={each.id}>
                   {each.capitalDisplayText}
                 </option>
               ))}
